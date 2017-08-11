@@ -892,9 +892,31 @@
       </licenses>
     </dependency>
     <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>apache</artifactId>
+      <version>15.0.0.redhat-1</version>
+      <licenses>
+        <license>
+          <name>Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.1</version>
+      <licenses>
+        <license>
+          <name>Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-parent</artifactId>
+      <version>35.0.0.redhat-2</version>
       <licenses>
         <license>
           <name>Apache Software License, Version 2.0</name>
@@ -1277,6 +1299,17 @@
       </licenses>
     </dependency>
     <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator-parent</artifactId>
+      <version>5.2.4.Final-redhat-1</version>
+      <licenses>
+        <license>
+          <name>Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
       <groupId>org.hibernate.common</groupId>
       <artifactId>hibernate-commons-annotations</artifactId>
       <version>5.0.1.Final</version>
@@ -1329,6 +1362,17 @@
         <license>
           <name>Apache Software License, Version 2.0</name>
           <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss</groupId>
+      <artifactId>jboss-parent</artifactId>
+      <version>19.0.0.redhat-2</version>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+          <url>http://repository.jboss.org/licenses/cc0-1.0.txt</url>
         </license>
       </licenses>
     </dependency>

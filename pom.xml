@@ -47,6 +47,78 @@
 
   <dependencies>
     <!-- TODO add dependencies which should be included in licenses.xml generation -->
+    <!-- Missing dependencies after testing -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator-parent</artifactId>
+      <version>5.2.4.Final-redhat-1</version>
+      <type>pom</type>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss</groupId>
+      <artifactId>jboss-parent</artifactId>
+      <version>19.0.0.redhat-2</version>
+      <type>pom</type>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <!-- Cannot have different version of the same dependency -->
+    <!--<dependency>-->
+      <!--<groupId>org.jboss</groupId>-->
+      <!--<artifactId>jboss-parent</artifactId>-->
+      <!--<version>19.0.0.redhat-1</version>-->
+      <!--<exclusions>-->
+        <!--<exclusion>-->
+          <!--<groupId>*</groupId>-->
+          <!--<artifactId>*</artifactId>-->
+        <!--</exclusion>-->
+      <!--</exclusions>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.jboss</groupId>-->
+      <!--<artifactId>jboss-parent</artifactId>-->
+      <!--<version>14.0.0.redhat-1</version>-->
+      <!--<exclusions>-->
+        <!--<exclusion>-->
+          <!--<groupId>*</groupId>-->
+          <!--<artifactId>*</artifactId>-->
+        <!--</exclusion>-->
+      <!--</exclusions>-->
+    <!--</dependency>-->
+    <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>apache</artifactId>
+      <version>15.0.0.redhat-1</version>
+      <type>pom</type>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-parent</artifactId>
+      <version>35.0.0.redhat-2</version>
+      <type>pom</type>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
     <!-- fabric8 -->
     <dependency>
       <groupId>io.fabric8</groupId>
